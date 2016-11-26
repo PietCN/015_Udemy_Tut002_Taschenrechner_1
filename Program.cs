@@ -15,7 +15,6 @@ namespace Taschenrechner_Iteration_1
       //  Wandelt Text in Ganzzahl um
       int ersterSummandAlsZahl = Convert.ToInt32(ersterSummand);
       int zweiterSummandAlsZahl = Convert.ToInt32(zweiterSummand);
-
       //  Berechnung ausführen
       int summe = ersterSummandAlsZahl + zweiterSummandAlsZahl;
 
