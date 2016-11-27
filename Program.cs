@@ -39,5 +39,11 @@ namespace Taschenrechner
       return minuend - subtrahent;
     }
     
+    static string HoleOperator()
+    {
+      Console.Write("Welche Operation soll ausgeführt werden? (+,-) : ");
+      string operation = Console.ReadLine();
+      return operation;
+    }
   }
 }
