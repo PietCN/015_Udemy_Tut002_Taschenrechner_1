@@ -4,13 +4,18 @@ namespace Taschenrechner
 {
   class Program
   {
+    static string HoleSummanden(string ausgabeText)
+    {
+      Console.Write(ausgabeText);
+      string summand =  Console.ReadLine();
+      return summand;
+    }
+
     static void Main()
     {
       //User Story "Addieren": Als Benutzer möchte ich zwei Zahlen eingeben, um deren Summe berechnen zu lassen.
-      Console.Write("Bitte gebe den ersten Summanden ein: ");
-      string ersterSummand = Console.ReadLine();
-      Console.Write("Bitte gebe den zweiten Summanden ein: ");
-      string zweiterSummand = Console.ReadLine();
+      string ersterSummand = HoleSummanden("Bitte gebe den ersten Summanden ein: ");
+      string zweiterSummand = HoleSummanden("Bitte gebe den zweiten Summanden ein: ");
 
       //  Wandelt Text in Gleitkommazahlen um
       double ersterSummandAlsZahl = Convert.ToDouble(ersterSummand);
