@@ -7,8 +7,8 @@
     <ProjectGuid>{0225FCF7-70E2-46F9-BDBF-E6ECDA96B659}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_015_Udemy_Tut002_Taschenrechner_1</RootNamespace>
-    <AssemblyName>015_Udemy_Tut002_Taschenrechner_1</AssemblyName>
+    <RootNamespace>Taschenrechner</RootNamespace>
+    <AssemblyName>Taschenrechner</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
