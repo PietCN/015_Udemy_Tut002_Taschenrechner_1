@@ -2,12 +2,41 @@ User Stories Taschenrechner
 
 User Story Vorlage: Als <Rolle/Anwendertyp> möchte ich <Ziel/Wunsch/Funktionen>, um <Nutzen>
 
+Titel Operation * und /
+Story: Als Benutzer möchte ich wählen ob zwei Zahlen addiert oder subtrahiert oder multipliziert oder dividiert werden.
+Akzeptanzkriterien:
+	* Gleitkommazahlen zwischen -10.0 und 100.0 können entweder addiert oder subtrahiert oder multipliziert oder dividiert werden.
+Status:
+	* offen
+	* Umgesetzt
+	* Erledigt
+
+Titel: Division
+Story: Als Benutzer möchte ich zwei Zahlen eingeben, um deren Quotienten berechnen zu lassen.
+Akzeptanzkriterien:
+	* Gleitkommazahlen zwischen -10.0 und 100.0 können dividiert werden
+Status:
+	* Methode Implementiert
+	* Umgesetzt
+	* Erledigt
+
+Titel: Multiplikation
+Story: Als Benutzer möchte ich zwei Zahlen eingeben, um deren Produkt berechnen zu lassen.
+Akzeptanzkriterien:
+	* Gleitkommazahlen zwischen -10.0 und 100.0 können multiplizieren werden
+Status:
+	* Methode Implementiert
+	* Umgesetzt
+	* Erledigt
+
 Titel Operation
 Story: Als Benutzer möchte ich wählen ob zwei Zahlen addiert oder subtrahiert werden.
 Akzeptanzkriterien:
 	* Gleitkommazahlen zwischen -10.0 und 100.0 können entweder addiert oder subtrahiert werden.
 Status:
 	* offen
+	* Umgesetzt
+	* Erledigt
 
 Titel: Softwarestruktur
 Story: Als Entwickler möchte ich den Quellcode sauber strukturieren, um später einfach weitere Funktionalitäten hinzu fügen zu können
@@ -23,7 +52,8 @@ Akzeptanzkriterien:
 	* Gleitkommazahlen zwischen -10.0 und 100.0 können subtrahiert werden
 Status:
 	* Methode Implementiert
-	* 
+	* Umgesetzt
+	* Erledigt
 
 Titel: Addieren
 Story: Als Benutzer möchte ich zwei Zahlen eingeben, um deren Summe berechnen zu lassen.
